@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Waiting Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        function checkTaskStatus(){
+            $.ajax({
+                url: '/analyze-apk/',  // URL of the Django view
+                success: function(data) {
+                    if (data.status == 'completed') {
+                        console.log(data.status);  // So that we can see if the task is completed
+                        window.location.href = '/results/';  // URL of the next page
+                    } else {
+                        console.log(data.status);  // So that we can see if the task is completed
+                        setTimeout(checkTaskStatus, 30000);  // Check again after 30 seconds
+                    }
+                }
+            });
+        }
+        checkTaskStatus();
+    });
+    </script>
+</head>
+<body>
+    <h1>Please wait while we process your request...</h1>
+</body>
+</html>

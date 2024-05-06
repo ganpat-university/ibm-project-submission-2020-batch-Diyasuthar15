@@ -1,0 +1,51 @@
+transact,API call signature
+onServiceConnected,API call signature
+bindService,API call signature
+attachInterface,API call signature
+ServiceConnection,API call signature
+android.os.Binder,API call signature
+SEND_SMS,Manifest Permission
+Ljava.lang.Class.getCanonicalName,API call signature
+Ljava.lang.Class.getMethods,API call signature
+Ljava.lang.Class.cast,API call signature
+Ljava.net.URLDecoder,API call signature
+android.content.pm.Signature,API call signature
+android.telephony.SmsManager,API call signature
+READ_PHONE_STATE,Manifest Permission
+getBinder,API call signature
+ClassLoader,API call signature
+Landroid.content.Context.registerReceiver,API call signature
+Ljava.lang.Class.getField,API call signature
+Landroid.content.Context.unregisterReceiver,API call signature
+GET_ACCOUNTS,Manifest Permission
+RECEIVE_SMS,Manifest Permission
+Ljava.lang.Class.getDeclaredField,API call signature
+READ_SMS,Manifest Permission
+getCallingUid,API call signature
+Ljavax.crypto.spec.SecretKeySpec,API call signature
+android.intent.action.BOOT_COMPLETED,Intent
+USE_CREDENTIALS,Manifest Permission
+MANAGE_ACCOUNTS,Manifest Permission
+android.content.pm.PackageInfo,API call signature
+KeySpec,API call signature
+TelephonyManager.getLine1Number,API call signature
+DexClassLoader,API call signature
+HttpGet.init,API call signature
+SecretKey,API call signature
+Ljava.lang.Class.getMethod,API call signature
+System.loadLibrary,API call signature
+android.intent.action.SEND,API call signature
+Ljavax.crypto.Cipher,API call signature
+WRITE_SMS,Manifest Permission
+READ_SYNC_SETTINGS,Manifest Permission
+android.telephony.gsm.SmsManager,API call signature
+WRITE_HISTORY_BOOKMARKS,Manifest Permission
+TelephonyManager.getSubscriberId,API call signature
+mount,Commands signature
+INSTALL_PACKAGES,Manifest Permission
+Runtime.getRuntime,API call signature
+Ljava.lang.Object.getClass,API call signature
+READ_HISTORY_BOOKMARKS,Manifest Permission
+Ljava.lang.Class.forName,API call signature
+Binder,API call signature
+class,B=Benign; S=Malware

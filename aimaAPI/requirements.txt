@@ -1,0 +1,13 @@
+fastapi
+openapi
+scikit-learn==1.3.2
+pandas
+numpy
+uvicorn
+androguard==3.4.0a1
+python-multipart
+aiofiles
+logging
+flask
+flask_sqlalchemy
+sqlalchemy
